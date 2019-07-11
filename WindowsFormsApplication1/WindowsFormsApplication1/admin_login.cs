@@ -33,5 +33,10 @@ namespace WindowsFormsApplication1
                 MessageBox.Show("Failed");
             }
         }
+
+        private void groupBox1_Enter(object sender, EventArgs e)
+        {
+
+        }
     }
 }

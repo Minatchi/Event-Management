@@ -19,3 +19,5 @@ C:\Users\Minatchi S\Documents\Visual Studio 2010\Projects\WindowsFormsApplicatio
 C:\Users\Minatchi S\Documents\Visual Studio 2010\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.data_view1.resources
 C:\Users\Minatchi S\Documents\Visual Studio 2010\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.data_view2.resources
 C:\Users\Minatchi S\Documents\Visual Studio 2010\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.csprojResolveAssemblyReference.cache
+C:\Users\Minatchi S\Documents\GitHub\Event-Management\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.exe
+C:\Users\Minatchi S\Documents\GitHub\Event-Management\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.pdb
