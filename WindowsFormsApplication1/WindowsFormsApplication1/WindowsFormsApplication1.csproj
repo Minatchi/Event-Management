@@ -1,0 +1,250 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{6153E496-AF7F-4AEF-B687-184A9A8C055C}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>WindowsFormsApplication1</RootNamespace>
+    <AssemblyName>WindowsFormsApplication1</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="admin_login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="admin_login.Designer.cs">
+      <DependentUpon>admin_login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="baby_shower.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="baby_shower.Designer.cs">
+      <DependentUpon>baby_shower.cs</DependentUpon>
+    </Compile>
+    <Compile Include="birthday.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="birthday.Designer.cs">
+      <DependentUpon>birthday.cs</DependentUpon>
+    </Compile>
+    <Compile Include="data_view.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="data_view.Designer.cs">
+      <DependentUpon>data_view.cs</DependentUpon>
+    </Compile>
+    <Compile Include="data_view1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="data_view1.Designer.cs">
+      <DependentUpon>data_view1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="data_view2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="data_view2.Designer.cs">
+      <DependentUpon>data_view2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fam_reunion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fam_reunion.Designer.cs">
+      <DependentUpon>fam_reunion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="index.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="index.Designer.cs">
+      <DependentUpon>index.cs</DependentUpon>
+    </Compile>
+    <Compile Include="main.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="main.Designer.cs">
+      <DependentUpon>main.cs</DependentUpon>
+    </Compile>
+    <Compile Include="musical_concert.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="musical_concert.Designer.cs">
+      <DependentUpon>musical_concert.cs</DependentUpon>
+    </Compile>
+    <Compile Include="new_year.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="new_year.Designer.cs">
+      <DependentUpon>new_year.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="register.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="register.Designer.cs">
+      <DependentUpon>register.cs</DependentUpon>
+    </Compile>
+    <Compile Include="user_login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="user_login.Designer.cs">
+      <DependentUpon>user_login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="wedding.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="wedding.Designer.cs">
+      <DependentUpon>wedding.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="admin_login.resx">
+      <DependentUpon>admin_login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="baby_shower.resx">
+      <DependentUpon>baby_shower.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="birthday.resx">
+      <DependentUpon>birthday.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="data_view.resx">
+      <DependentUpon>data_view.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="data_view1.resx">
+      <DependentUpon>data_view1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="data_view2.resx">
+      <DependentUpon>data_view2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fam_reunion.resx">
+      <DependentUpon>fam_reunion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="index.resx">
+      <DependentUpon>index.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="main.resx">
+      <DependentUpon>main.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="musical_concert.resx">
+      <DependentUpon>musical_concert.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="new_year.resx">
+      <DependentUpon>new_year.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="register.resx">
+      <DependentUpon>register.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="user_login.resx">
+      <DependentUpon>user_login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="wedding.resx">
+      <DependentUpon>wedding.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\abstract-luxury-blur-grey-color-gradient-used_cg2p78929141c_th.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\54354-depth_of_field-748x421.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\03e2eb7d55d7a656b1177ac92bf88da6.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\03e2eb7d55d7a656b1177ac92bf88da61.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\green-park-view_1417-1488.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\blur-background.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\85ed15d96c6f899997474d21bdf44054.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\e3fe7cfb1606543ec01509fc935f680b.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bigstock-Cup-of-hot-latte-art-coffee-on-68381017.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\depositphotos_165930158-stock-photo-minimalist-plant-background.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\New-Year-Decorations-on-Wooden-Background-Download.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\baby.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\da2cd925bffd14af304889883503c2fa95defa14.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\164693313-ring-wallpapers.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\164693313-ring-wallpapers1.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
